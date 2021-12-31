@@ -1,0 +1,76 @@
+nav {
+    height: 20vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #c52216, #fde49c);
+    color: black;
+    /* margin-bottom: 20px; */
+  }
+  .navitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .navitems h2 {
+    font-size: 40px;
+  }
+  
+  .navitems button {
+    width: 30%;
+    height: 10vh;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    background-color: red;
+    font-family: serif;
+    font-size: 20px;
+    margin: auto 0px;
+  }
+  
+  .fetchbtn:hover {
+    background-color: red;
+  }
+  .userdatacontainer {
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(to bottom right, #aee681, #a33387);
+  }
+  #main {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    /* padding-top: 10vh; */
+  }
+  .name:hover {
+    color: orange;
+  }
+  
+  .avatar {
+    border-radius: 30%;
+  }
+  
+  .profile_cont {
+    border-radius: 19%;
+    background-image: radial-gradient(#3a0652, #7a1c39);
+    margin: 5px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    transition: transform ease 0.2s;
+    opacity: 0.8;
+    margin-top: 8vh;
+  }
+  
+  .profile_cont:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  /* abhishek kumar singh */
+  /* #c2ffd9 */
